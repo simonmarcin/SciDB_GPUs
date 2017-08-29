@@ -1058,8 +1058,6 @@ for i in range(0,len(config_cores)):
     bar_gpu[i]=tmp_gpu/(analyzer_multi_mps.iterations-1)
     bar_cpu[i]=tmp_cpu/(analyzer_cpu.iterations-1)
     
-print(bar_gpu[5])
-print(bar_cpu[5])
 
 chunkPlot = plotClusterStackBar(2,6,2)
 chunkPlot.setXticks(['1','2','4','6','8','10'])
@@ -1072,10 +1070,6 @@ chunkPlot.setColorToLayer(0,7)
 chunkPlot.setColorToLayer(1,6)
 chunkPlot.plot()
 ```
-
-    0.591030597687
-    2.81180071831
-
 
 
 ![png](output_22_1.png)
