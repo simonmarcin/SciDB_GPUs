@@ -75,11 +75,6 @@ plt.show
 ```
 
     (slice(1400, 1600, None), slice(3400, 3600, None))
-
-
-
-
-
     <function matplotlib.pyplot.show>
 
 
@@ -145,11 +140,6 @@ aia_flat.datashape.schema
 ```
 
     (slice(0, 4096, None), slice(0, 4096, None), slice(0, 1, None))
-
-
-
-
-
     '<aia_94:int16,aia_131:int16,aia_171:int16,aia_193:int16,aia_211:int16,aia_335:int16> [x=0:4095,128,5,y=0:4095,128,5]'
 
 
@@ -178,11 +168,6 @@ plt.show
     aia_171
     aia_171
     aia_171
-
-
-
-
-
     <function matplotlib.pyplot.show>
 
 
@@ -316,10 +301,6 @@ aia_0_submap = aia_cube['aia_193'][2048:4096,2048:4096,0:1].toSunpyMap()
 aia_0_full.peek(draw_limb=True, draw_grid=True)
 ```
 
-    /usr/local/lib/python3.4/dist-packages/matplotlib/figure.py:403: UserWarning: matplotlib is currently using a non-GUI backend, so cannot show the figure
-      "matplotlib is currently using a non-GUI backend, "
-
-
 
 ![png](output_27_1.png)
 
@@ -328,10 +309,6 @@ aia_0_full.peek(draw_limb=True, draw_grid=True)
 ```python
 aia_0_submap.peek()
 ```
-
-    /usr/local/lib/python3.4/dist-packages/matplotlib/figure.py:403: UserWarning: matplotlib is currently using a non-GUI backend, so cannot show the figure
-      "matplotlib is currently using a non-GUI backend, "
-
 
 
 ![png](output_28_1.png)
