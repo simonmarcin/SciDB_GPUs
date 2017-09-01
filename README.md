@@ -6,6 +6,7 @@ We evaluate the usage of GPUs for SciDB plugins. In order to hide the introduced
 **UserInterface:** Interface between User and SciDB specific for AIA data.<br>
 **Benchmarks:** Runtime evaluation of our implementation<br>
 **SciDB Plugins:** DEM and Convolution plugin accelerated by GPUs. Util functions are used to abstract SciDB from the GPU kernel.
+**Resources:** Some data to create SciDB test arrays.
 
 ### How does it work
 We use DMA memory copy to the GPU, which is asynchronous in respect to the CPU. This enables overlapping work of the CPU and the GPU. Used in utils/DataAccess.h.
