@@ -10,10 +10,11 @@ Query was executed successfully
 See UserInterface or Benchmark for more details.
 ```
 
+
 # Arguments
-EMWMT=[1/0]: Calculate EMWMT and EMTOT
-MultiGPU=[1-N]: Number of GPU cards to use
-logtmax: upper limit of temperature bins
+EMWMT=[1/0]: Calculate EMWMT and EMTOT<br>
+MultiGPU=[1-N]: Number of GPU cards to use<br>
+logtmax: upper limit of temperature bins<br>
 logtmin: lower limit of temperature bins
 
 
