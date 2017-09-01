@@ -3,7 +3,7 @@
 We evaluate the usage of GPUs for SciDB plugins. In order to hide the introduced overhead by the GPUs, we implement different optimization strategies. 
 
 ### Content
-** UserInterface:** Interface between User and SciDB specific for AIA data.<br>
+**UserInterface:** Interface between User and SciDB specific for AIA data.<br>
 **Benchmarks:** Runtime evaluation of our implementation<br>
 **SciDB Plugins:** DEM and Convolution plugin accelerated by GPUs. Util functions are used to abstract SciDB from the GPU kernel.
 
@@ -26,5 +26,7 @@ To further pipeline more mork to the GPU, multiple SciDB instances send chunks t
 ![png](MPS.PNG)
 
 
-### Result
-We reached a speedup of 10³ (>7000) for the DEM algortihm running on 4 nodes in the Amazon cloud compared to a single CPU execution. Running it on a PC with a Nvidia GTX 1070 we reached a speedup of 10² (260).
+In the best case we can completely hide all of the data movement and calculations of the GPU behind SciDBs loading and storing chunks. In case the GPU kernel runs longer than loading and storing a chunk, we have spare CPU performance which we should harness by also running calculations asynchronous on the CPU.
+
+### Results
+We reached a speedup of 10³ (>7000) for the DEM algortihm running on 4 nodes in the Amazon cloud compared to a single CPU core execution. Running it on a PC with a Nvidia GTX 1070 we reached a speedup of 10² (260).
