@@ -199,48 +199,7 @@ error = analyzer_1.analyzeQueryFirdem()
 
     Working on config with  1  instances.
     Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Working on config with  2  instances.
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Working on config with  4  instances.
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Working on config with  8  instances.
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
-    Query was executed successfully
+    ... skipped output ...
 
 
 Plot the results from the run above.
