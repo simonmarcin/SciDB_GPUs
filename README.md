@@ -31,3 +31,6 @@ In the best case we can completely hide all of the data movement and calculation
 
 ### Results
 We reached a speedup of 10³ (>7000) for the DEM algortihm running on 4 nodes in the Amazon cloud compared to a single CPU core execution. Running it on a PC with a Nvidia GTX 1070 we reached a speedup of 10² (260).
+
+
+![png](scalability.png)
